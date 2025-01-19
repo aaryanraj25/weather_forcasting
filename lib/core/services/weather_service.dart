@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:weather_forcasting/config/secrets.dart';
 import '../models/weather.dart';
 
 class WeatherServiceException implements Exception {
@@ -10,7 +11,7 @@ class WeatherServiceException implements Exception {
 }
 
 class WeatherService {
-  static const String apiKey = '13f185a87178c042f497cab57e025be3';
+  static const String apiKey = '${WEATHER_API_KEY}';
   static const String baseUrl = 'https://api.openweathermap.org/data/2.5';
 
   Future<Weather> getCurrentWeather(String city) async {
