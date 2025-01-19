@@ -28,8 +28,8 @@ Flutter-based weather application with real-time updates and location management
 ## Project Setup
 1. Clone repository
    ```bash
-   git clone https://github.com/yourusername/weather_app.git
-   cd weather_app
+   git clone https://github.com/aaryanraj25/weather_forcasting.git
+   cd weather_forcasting
 
 2. Environment Setup
    ```bash
