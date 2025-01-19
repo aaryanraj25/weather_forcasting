@@ -32,9 +32,8 @@ Flutter-based weather application with real-time updates and location management
    cd weather_app
 
 2. Environment Setup
-   2.1 Create lib/config/secrets.dart
-   2.2 Add API key:
-    const String WEATHER_API_KEY = 'your_api_key_here';
+   ```bash
+   Add API key: lib/config/secrets.dart
 
 2. Install dependencies
    flutter pub get
