@@ -1,1 +1,1 @@
-const String WEATHER_API_KEY = '13f185a87178c042f497cab57e025be3';
+const String WEATHER_API_KEY = 'Your_Api_Key_Here';
