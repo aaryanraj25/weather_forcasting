@@ -1,1 +1,1 @@
-const String WEATHER_API_KEY = 'Your_Api_Key_Here';
+const String WEATHER_API_KEY = 'YOUR_API_KEY';
